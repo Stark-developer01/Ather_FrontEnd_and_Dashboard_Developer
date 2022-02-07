@@ -1,8 +1,8 @@
 # The Popular 2048 GAME in Python
 
-#### In this project, I have built the 2048 game in Python both with a UI Interface and Console Version
+### In this project, I have built the 2048 game in Python both with a UI Interface and a Console Version.
 
-The Game for the UI Version has been created using the Tkinter Python Library.
+The Game for the UI Version has been created using the standard GUI Python Library - Tkinter.
 
 **Steps to Run the Game :**
 1. Fork the Repository in your personal github space and clone the repository to your local desktop machine or download a ZIP File of the Project Repository
