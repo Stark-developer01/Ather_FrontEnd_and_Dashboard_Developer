@@ -14,10 +14,6 @@ STEP 6 : We set up functions to test if the user has won or lost.
 import copy
 import random
 
-# Taking the user input for board size and final value to match on the board (2048 GAME or 4096 GAME)
-boardSize = int(input(" Enter the Size of the Board in which you want to play (4X4) or (8X8) : "))
-finalValue = int(input(" Enter the Value for which you want to play (2048 or 4096) : "))
-
 # This function will print out the board in the way we want
 def display():
     # Finding out the largest value
@@ -168,7 +164,17 @@ def noMoves():
                 return True
     return False
 
+'''
+MAIN GAME BUILDING STARTS 
 
+One by one we call the different functions we just created in different combinations and 
+sequences and create a empty board for the game to start.
+
+'''
+
+# Taking the user input for board size and final value to match on the board (2048 GAME or 4096 GAME)
+boardSize = int(input(" Enter the Size of the Board in which you want to play (4X4) or (8X8) : "))
+finalValue = int(input(" Enter the Value for which you want to play (2048 or 4096) : "))
 
 # Creating a blank board
 board = []
